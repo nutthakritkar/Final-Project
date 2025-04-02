@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ca68cc-f9ed-473f-afcb-7304e1a5ecd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__scala_sdk_3_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.untitled-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/untitled.untitled-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$946abe14cd0043883c19$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$946abe14cd0043883c19.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$946abe14cd0043883c19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c56fee41ff2a4b3f9533$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c56fee41ff2a4b3f9533.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c56fee41ff2a4b3f9533.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c94c1e228cd5b15e555b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c94c1e228cd5b15e555b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c94c1e228cd5b15e555b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de3ac94faf2f2b269497$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de3ac94faf2f2b269497.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$de3ac94faf2f2b269497.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MosaicRecreation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MosaicRecreation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MosaicRecreationParallel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MosaicRecreationParallel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/ImagePixelator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/ImagePixelator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/ImagePixelator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/ImagePixelator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreation.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.5/classes/MosaicRecreationParallel.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +42,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="untitled" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -50,6 +93,28 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.MosaicRecreationParallel">
+    <configuration name="MosaicRecreation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MosaicRecreation" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MosaicRecreationParallel" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MosaicRecreationParallel" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MosaicRecreationParallel" />
+        <item itemvalue="Application.MosaicRecreation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ScalaProjectSettings">
     <option name="migrateConfigurationsNotificationShown" value="true" />
     <option name="scala3DisclaimerShown" value="true" />
@@ -73,10 +138,23 @@
       <workItem from="1742393524191" duration="5268000" />
       <workItem from="1742400169015" duration="6000" />
       <workItem from="1742400248910" duration="62000" />
+      <workItem from="1742400315408" duration="33910000" />
+      <workItem from="1743619187435" duration="1632000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
