@@ -79,10 +79,10 @@ object MosaicRecreationParallel {
   }
 
   def main(args: Array[String]): Unit = {
-    val inputPath = "/Users/Pon/Desktop/highdef.jpg"
-    val sampleFolder = "/Users/Pon/Desktop/images/"
+    val inputPath = "/Users/Pon/Desktop/highdef.jpg" // Change to your image file
+    val sampleFolder = "/Users/Pon/Desktop/images/" // Change to folder with sample images
     val outputPath = "/Users/Pon/Desktop/mosaic_parallel.jpg"
-    val blockSize = 2
+    val blockSize = 2 // Adjust block size to change recreation quality
     val batchSize = 10 // Adjust batch size to process more images concurrently
 
     val inputImage = ImageIO.read(new File(inputPath))
