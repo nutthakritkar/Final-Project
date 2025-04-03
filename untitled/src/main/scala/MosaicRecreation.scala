@@ -69,14 +69,13 @@ object MosaicRecreation {
   }
 
   def main(args: Array[String]): Unit = {
-    val inputPath = "/Users/Pon/Desktop/highdef.jpg"
-    val sampleFolder = "/Users/Pon/Desktop/images/"
+    val inputPath = "/Users/Pon/Desktop/highdef.jpg" // Change to your image file
+    val sampleFolder = "/Users/Pon/Desktop/final project/images/" // Change to your folder with the sample images
     val outputPath = "/Users/Pon/Desktop/mosaic_sequential.jpg"
-    val blockSize = 2
+    val blockSize = 2 // Adjust blocksize as needed 
 
     val inputImage = ImageIO.read(new File(inputPath))
     val sampleImages = loadSampleImages(sampleFolder)
-    //val mosaicImage = createMosaic(inputImage, sampleImages, blockSize)
 
     val startTime = System.nanoTime()
     val mosaicImage = createMosaic(inputImage, sampleImages, blockSize)

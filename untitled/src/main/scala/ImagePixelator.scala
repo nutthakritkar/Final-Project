@@ -9,15 +9,15 @@ object ImagePixelator {
     val width = image.getWidth
     val height = image.getHeight
     val pixelated = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB)
-    val graphics = pixelated.createGraphics() // c
+    val graphics = pixelated.createGraphics() // Creates graphic content for drawing
 
     for (x <- 0 until width by blockSize; y <- 0 until height by blockSize) {
-      val avgColor = getAverageColor(image, x, y, blockSize)
+      val avgColor = getAverageColor(image, x, y, blockSize) // Get average color of block
       graphics.setColor(avgColor)
       graphics.fillRect(x, y, blockSize, blockSize)
     }
 
-    graphics.dispose()
+    graphics.dispose() // Release resources
     pixelated
   }
 
@@ -34,7 +34,7 @@ object ImagePixelator {
       }
     }
 
-    new Color(sumRed / count, sumGreen / count, sumBlue / count)
+    new Color(sumRed / count, sumGreen / count, sumBlue / count) // Calculate average of red, green and blue
   }
 
   def main(args: Array[String]): Unit = {
