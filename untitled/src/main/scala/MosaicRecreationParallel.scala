@@ -114,7 +114,7 @@ object MosaicRecreationParallel {
 
   def main(args: Array[String]): Unit = {
     val inputPath = "/Users/Pon/Desktop/highdef.jpg" // Change to your image file
-    val sampleFolder = "/Users/Pon/Desktop/final project/images/" // Change to your folder with sample images
+    val sampleFolder = "/Users/Pon/Desktop/final project/untitled/images/" // Change to your folder with sample images
     val outputPath = "/Users/Pon/Desktop/mosaic_parallel.jpg"
     val blockSize = 2 // Adjust blocksize as needed
     val batchSize = 10 // Adjust batch size to load in sample images
